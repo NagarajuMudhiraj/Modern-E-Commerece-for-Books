@@ -1,0 +1,45 @@
+﻿
+> react-example@0.0.0 dev
+> vite
+
+node.exe : 
+[31merror when 
+starting dev server:
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([31mer   
+ ror when startin    
+g dev server::St    
+ring) [], Remote    
+Exception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Error: Port 3000 is 
+already in use
+    at 
+Server.onError (file:
+///D:/untitled/node_m
+odules/vite/dist/node
+/chunks/dep-D4NMHUTW.
+js:25023:18)
+    at Server.emit 
+(node:events:508:28)
+    at emitErrorNT 
+(node:net:1976:8)
+    at process.proces
+sTicksAndRejections (
+node:internal/process
+/task_queues:89:21)[
+39m

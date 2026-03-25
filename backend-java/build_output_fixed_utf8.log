@@ -1,0 +1,140 @@
+﻿mvn.cmd : WARNING: A 
+restricted method in 
+java.lang.System has been 
+called
+At line:1 char:30
++ ... ckend-java; & "d:\un
+titled\maven\apache-maven-
+3.9.6\bin\mvn.cmd" clea 
+...
++                 ~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (W  
+  ARNING: A rest...has    
+ been called:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+WARNING: 
+java.lang.System::load 
+has been called by org.fus
+esource.jansi.internal.Jan
+siLoader in an unnamed 
+module (file:/D:/untitled/
+maven/apache-maven-3.9.6/l
+ib/jansi-2.4.0.jar)
+WARNING: Use --enable-nati
+ve-access=ALL-UNNAMED to 
+avoid a warning for 
+callers in this module
+WARNING: Restricted 
+methods will be blocked 
+in a future release 
+unless native access is 
+enabled
+
+WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has been 
+called
+WARNING: sun.misc.Unsafe::
+objectFieldOffset has 
+been called by com.google.
+common.util.concurrent.Abs
+tractFuture$UnsafeAtomicHe
+lper (file:/D:/untitled/ma
+ven/apache-maven-3.9.6/lib
+/guava-32.0.1-jre.jar)
+WARNING: Please consider 
+reporting this to the 
+maintainers of class com.g
+oogle.common.util.concurre
+nt.AbstractFuture$UnsafeAt
+omicHelper
+WARNING: sun.misc.Unsafe::
+objectFieldOffset will be 
+removed in a future 
+release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.bookverse:backend-java >---------------------
+[INFO] Building bookverse-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.4.0/maven-clean-plugin-3.4.0.pom
+Progress (1): 797 B
+Progress (1): 1.9 kB
+Progress (1): 4.5 kB
+Progress (1): 5.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.4.0/maven-clean-plugin-3.4.0.pom (5.5 kB at 17 kB/s)
+[INFO] 
+[INFO] --- clean:3.4.0:clean (default-clean) @ backend-java ---
+[INFO] Deleting D:\untitled\backend-java\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend-java ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ backend-java ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 24 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/User.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/User.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/User.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Book.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Book.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Book.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Order.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Order.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Order.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/OrderItem.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/OrderItem.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/OrderItem.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Category.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Category.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Category.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/CartItem.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/CartItem.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/CartItem.java:[6,14] package lombok does not exist
+[INFO] 18 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.752 s
+[INFO] Finished at: 2026-02-24T22:03:24+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project backend-java: Compilation failure: Compilation failure: 
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/User.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/User.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/User.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Book.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Book.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Book.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Order.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Order.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Order.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/OrderItem.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/OrderItem.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/OrderItem.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Category.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Category.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/Category.java:[6,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/CartItem.java:[4,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/CartItem.java:[5,14] package lombok does not exist
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/entity/CartItem.java:[6,14] package lombok does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

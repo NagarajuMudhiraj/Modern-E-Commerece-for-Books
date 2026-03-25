@@ -1,0 +1,37 @@
+[dotenv@17.3.1] injecting env (2) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+X [ERROR] Unexpected "Not" in JSON
+
+    tsconfig.json:1:0:
+      1 │ Not found
+        ╵ ~~~
+
+X [ERROR] Expected ";" but found "found"
+
+    vite.config.ts:1:219:
+      1 │ ...al_import_meta_url = "file:///D:/untitled/vite.config.ts";Not found
+        │                                                                  ~~~~~
+        ╵                                                                  ;
+
+[31mfailed to load config from D:\untitled\vite.config.ts[39m
+D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:1467
+  let error = new Error(text);
+              ^
+
+Error: Build failed with 2 errors:
+tsconfig.json:1:0: ERROR: Unexpected "Not" in JSON
+vite.config.ts:1:219: ERROR: Expected ";" but found "found"
+    at failureErrorWithLog (D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:1467:15)
+    at D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:926:25
+    at runOnEndCallbacks (D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:1307:45)
+    at buildResponseToResult (D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:924:7)
+    at D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:951:16
+    at responseCallbacks.<computed> (D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:603:9)
+    at handleIncomingPacket (D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:658:12)
+    at Socket.readFromStdout (D:\untitled\node_modules\vite\node_modules\esbuild\lib\main.js:581:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12) {
+  errors: [Getter/Setter],
+  warnings: [Getter/Setter]
+}
+
+Node.js v24.13.0

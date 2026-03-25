@@ -1,0 +1,159 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.bookverse:backend-java >---------------------
+[INFO] Building bookverse-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend-java ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ backend-java ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 30 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[59,17] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[59,64] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[60,17] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[60,62] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[61,17] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[61,64] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[62,17] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[62,64] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[63,17] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[63,65] cannot find symbol
+  symbol:   class Category
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[65,22] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[66,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[69,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[72,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[75,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[78,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[81,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[84,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[87,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[90,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[93,37] cannot find symbol
+  symbol:   class Book
+  location: class com.bookverse.DataInitializer
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.652 s
+[INFO] Finished at: 2026-02-25T12:10:02+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project backend-java: Compilation failure: Compilation failure: 
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[59,17] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[59,64] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[60,17] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[60,62] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[61,17] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[61,64] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[62,17] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[62,64] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[63,17] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[63,65] cannot find symbol
+[ERROR]   symbol:   class Category
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[65,22] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[66,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[69,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[72,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[75,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[78,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[81,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[84,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[87,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[90,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] /D:/untitled/backend-java/src/main/java/com/bookverse/DataInitializer.java:[93,37] cannot find symbol
+[ERROR]   symbol:   class Book
+[ERROR]   location: class com.bookverse.DataInitializer
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
