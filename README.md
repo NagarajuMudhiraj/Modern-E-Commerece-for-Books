@@ -5,11 +5,15 @@ Modern Cart: Dynamic shopping cart with real-time price calculations.
 Secure Checkout: Multi-step checkout process with order history tracking.
 Wishlist: Save your favorites and share your reading list with friends.
 Premium UI: Smooth animations, dark mode support, and responsive layouts.
+
+
 🛠️ For Administrators
 Analytics Dashboard: Real-time sales statistics and interactive data visualizations.
 Catalog Management: Full control over books, categories, and inventory.
 Order Handling: Manage customer orders and update tracking statuses instantly.
 User Management: Monitor user accounts and manage permissions.
+
+
 🛠️ Tech Stack
 Frontend
 Framework: React 19 + Vite
@@ -49,17 +53,6 @@ bash
 npm run dev
 The application will be available at http://localhost:3000.
 
-📁 Project Structure
-text
-/
-├── src/                # React frontend source
-│   ├── components/     # UI components
-│   ├── pages/          # Page layouts
-│   └── context/        # State management
-├── backend-java/       # Spring Boot backend source
-├── server.ts           # Node.js backend & proxy
-├── bookverse.db        # SQLite database
-└── start-all.bat       # Production startup script
 📄 License
 This project is licensed under the MIT License - see the 
 LICENSE
